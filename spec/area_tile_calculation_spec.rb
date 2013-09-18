@@ -1,6 +1,7 @@
 require "./area_tile_calculation.rb"
 describe AreaTileCalculation do
   it "should return 16 tile elements with zoom 12" do
+    pending
     corners = {
       "top-left" => {
         lat: -29.955771,
