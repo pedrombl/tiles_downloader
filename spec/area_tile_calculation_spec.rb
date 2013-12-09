@@ -3,12 +3,12 @@ describe AreaTileCalculation do
   it "should return 16 tile elements with zoom 12" do
     corners = {
       "top-left" => {
-        lat: -29.955771,
-        long: -51.268056
+        "lat"=> -29.955771,
+        "long"=> -51.268056
       },
       "bottom-right" => {
-        lat: -30.145293,
-        long: -51.027856      
+        "lat"=> -30.145293,
+        "long"=> -51.027856      
       }
     }
 

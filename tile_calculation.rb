@@ -1,8 +1,8 @@
 include Math
 class TileCalculation
   def initialize(attr)
-    @lat_rad = (attr[:lat] * PI) / 180
-    @lon_deg = attr[:long]
+    @lat_rad = (attr["lat"] * PI) / 180
+    @lon_deg = attr["long"]
   end
 
   def xtile(zoom)

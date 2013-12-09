@@ -1,3 +1,5 @@
+require './tile_calculation'
+
 class AreaTileCalculation
   def initialize(corners)
     @tile_calculation1 = TileCalculation.new(corners["top-left"])
